@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Misc Guides
+title: Guides
 permalink: /guide/
 ---
 
