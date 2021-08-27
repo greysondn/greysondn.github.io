@@ -1,0 +1,25 @@
+<header>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <div class="container">
+            <a href="{{ site.url }}" class="navbar-brand">{{ site.title }}</a>
+        
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <div class="btn-group" role="group" aria-label="main navigation">
+			    <button type="button" class="btn btn-outline-secondary" onclick="location.href = '{{ site.url }}/about/';">About Me</button>
+			
+			<button type="button" class="btn btn-outline-secondary" onclick="location.href = '{{ site.url }}/blog/';">Blog</button>
+			<button type="button" class="btn btn-outline-secondary" disabled>Elsewhere</button>
+                    </div>
+                </ul>
+		<ul class="nav navbar-nav ml-auto">
+	            <div class="btn-group" role="group" aria-label="main navigation">
+                        <button type="button" class="btn btn-outline-secondary" onclick="location.href = '{{ site.url }}/walkthrough/';">Game Walkthroughs</button>
+			<button type="button" class="btn btn-outline-secondary" onclick="location.href = '{{ site.url }}/guide/';">Misc Guides</button>
+                        <button type="button" class="btn btn-outline-secondary" disabled>Projects</button>
+                    </div>
+                </ul>
+            </div>
+        </div>
+  </nav>
+</header>

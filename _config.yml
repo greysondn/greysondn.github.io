@@ -1,0 +1,13 @@
+# Site settings
+title: greysondn's dev blog
+email: greysondn@gmail.com
+description: "So apparently this is a thing"
+baseurl: ""
+url: "https://greysondn.github.io"
+timezone: America/New_York
+# twitter_username: jekyllrb
+# github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
